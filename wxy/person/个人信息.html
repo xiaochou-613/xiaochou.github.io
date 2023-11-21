@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../初始化CSS+字体图标/reset.css">
+    <link rel="stylesheet" href="../../初始化CSS+字体图标/上传/iconfont.css">
+    <style>
+.person-r{
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.picture{
+    width:120px;
+    height:90px;
+    /* padding: 10px; */
+}
+.picture>img{
+    width: 120px;
+}
+.who{
+    width: 80px;
+    text-align: left;
+    font-size: 20px;
+}
+.who2{
+    width: 220px;
+    text-align: left;
+    font-size: 20px;
+}
+.finger{
+    width: 100px;
+    position: relative;
+    left: 112px;
+    top: 375px;
+}
+.btn5{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    position: relative;
+    left: 211px;
+    top: 121px;
+}
+    </style>
+</head>
+<body>
+    <img src="../../img/证件照.png" class="finger">
+
+    <div class="person-r">
+        <table>
+            <tr>
+                <td rowspan="3" class="picture">
+                    <img src="../../img/无.png">
+                </td>
+                <td class="who">姓名：</td>
+                <td colspan="2" class="who2">张雅荷</td>
+            </tr>
+            <tr>
+                <td class="who">性别：</td>
+                <td colspan="2" class="who2">女</td>
+            </tr>
+            <tr>
+                <td class="who">手机：</td>
+                <td colspan="2" class="who2" >我不造，你没有告诉我</td>
+            </tr>       
+        </table>
+        <button type="submit" class="btn5"><i class="iconfont">&#xe66e;</i></button>
+    </div>
+
+    <script src="../alert.js"></script>
+    <script>
+        //个人信息
+        var btn5 = document.getElementsByClassName("btn5")[0]
+        btn5.addEventListener("click",function(){
+        window.alert("请上传你的美照到我的微信，谢谢~")
+})
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577317",
+      "name": "提示",
+      "font_class": "tishi",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "5160143",
+      "name": "生日蛋糕",
+      "font_class": "huabanfuben",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "12661392",
+      "name": "上传",
+      "font_class": "shangchuan_huaban",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "13452642",
+      "name": "礼物",
+      "font_class": "bojuelvpaiicontilian_huabanfuben",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "14459310",
+      "name": "cake",
+      "font_class": "cake",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../初始化CSS+字体图标/reset.css">
+    <link rel="stylesheet" href="../emun.css">
+    <link rel="stylesheet" href="../../初始化CSS+字体图标/购物车/iconfont.css">
+    <style>
+        .present{
+            width: 850px;
+            height: 800px;
+            /* background-color: aqua; */
+        }
+        .liwu{
+            width: 200px;
+            height: 260px;
+            background-color: #fff;
+            margin-left: 11px;
+            margin-top: 5px;
+            float: left;
+            border-radius: 15px;
+            position: relative;
+            box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.3); 
+
+        }
+        .one{
+            width: 200px;
+            height:201.11px;
+            /* border-top-right-radius: 15px;
+            border-top-left-radius: 15px; */
+            border-radius: 15px;
+        }
+        span{
+            position: absolute;
+            left: 12px;
+            top: 220px;
+            color: #676767;
+            font-weight: bolder;    
+        }
+        .liwu>.iconfont{
+            font-size: 36px;
+            color: #ff6700;
+            position: absolute;
+            left: 146px;
+            top: 212px;
+            /* bottom: 10px; */
+            user-select: none;
+        }
+        .btn2{
+            width: 200px;
+            height: 60px;
+            border-radius: 45px;
+            background-color: #fff;
+            border-color: #ff6700;
+            color: #000;
+            z-index: 10;
+            position: absolute;
+            top: 600px;
+            left: 320px;
+            float: left;
+            font-size: 20px;
+            display: none;
+        }
+        .btn2:hover
+        {
+            box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.3); 
+            background-color: #ff6700;
+        }
+    </style>
+</head>
+<body>
+    <div class="present">
+        <div class="liwu">
+            <img src="../../img/1.png" class="one">
+            <span> 蓝色宝石项链</span>
+            <i class="iconfont">&#xe622;</i>
+            <!-- 需要添加span显示数量 -->
+        </div>
+        <div class="liwu">
+            <img src="../../img/2.png" class="one">
+            <span>刻字桌面音响</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/3.png" class="one">
+            <span>999朵玫瑰花茶</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/4.png" class="one">
+            <span>定制透明书简</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/5.png" class="one">
+            <span>暖你一整夜棉袄</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/6.png" class="one">
+            <span>巨无霸人工钻石</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/7.png" class="one">
+            <span>灰姑娘同款水晶鞋</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/8.png" class="one">
+            <span>个性花睡衣</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/9.png" class="one">
+            <span>华丽的蛇皮雨衣</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/10.png" class="one">
+            <span>少女美羊羊服装</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/12.png" class="one">
+            <span>双人成行</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+        <div class="liwu">
+            <img src="../../img/11.png" class="one">
+            <span>玩偶</span>
+            <i class="iconfont">&#xe622;</i>
+        </div>
+
+        <button type="submit" class="btn2" onclick="alert('是你生日嘛你就选')">提交
+        </button>
+    </div>
+
+
+    <script src="./present.js"></script>
+    <script src="../alert.js"></script>
+</body>
+</html>

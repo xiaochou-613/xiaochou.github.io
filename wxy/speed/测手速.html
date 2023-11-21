@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../初始化CSS+字体图标/reset.css">
+    <style>
+        button{
+            width: 160px;
+            height: 50px;
+            position: absolute;
+            left: 338px;
+            top: 350px;
+        }
+        .btn{
+            width: 850px;
+            height: 800px;
+            position: relative;
+            float: left;
+        }
+        .btn>button{
+            border-radius: 15px;
+            border-color: #b7b7b7;
+            background-color: #fff;
+            color: #b7b7b7;
+        }
+        .count{
+            font-size: 40px;
+            position: absolute;
+            left: 401px;
+            top: 250px;
+            display: none;
+        }
+        .name{
+            width: 290px;
+            height: 200px;
+            background-color: #fff;
+            position: relative;
+            left: 278px;
+            top: 240px;
+            box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.3); 
+            border-radius: 15px;
+            display: none;
+        }
+        .name>span{
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            user-select: none;
+        }
+        .name>input{
+            width: 140px;
+            height: 30px;
+            position: absolute;
+            left: 20px;
+            top: 70px;
+            border-radius: 15px;
+            padding-left: 103px;
+            
+        }
+        .name>button{
+            width: 120px;
+            height: 35px;
+            border-radius: 15px;
+            position: absolute;
+            left: 80px;
+            top: 140px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <span class="count">0</span>
+    <div class="btn">    
+        <button type="button" onclick="love()" class="btn7">快速点击5s</button>
+    </div>
+    <div class="name">
+        <span>请输入一个姓名：</span>
+        <input type="text" class="inp">
+        <button type="submit" onclick="jump()" class="btn3">确认</button>
+    </div>
+
+    <script src="../alert.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

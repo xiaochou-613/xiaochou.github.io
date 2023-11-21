@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../初始化CSS+字体图标/reset.css">
+    <style>
+        .back{
+            width: 850px;
+            height: 800px;
+            /* background-color: antiquewhite; */
+            position: relative;
+        }
+        .top{
+            width: 500px;
+            height: 60px;
+            font-size: 20px;
+            border-bottom: 1px solid #b0b0b0;
+            position: absolute;
+            left: 140px;
+            top: 200px;
+        }
+        ul{
+            padding: 0;
+        }
+        .topli li{
+            float: left;
+            color: #7e7979;
+        }
+        li{
+            margin-bottom: 15px;
+        }
+        .zh{
+            position: absolute;
+            left: 148px;
+            top: 266px;
+        }
+        
+
+        .state{
+            position: absolute;
+            left: 299px;
+            top: 266px;
+        }
+        .content{
+            position: absolute;
+            left: 456px;
+            top: 266px;
+        }
+        .cz{
+            position: absolute;
+            left: 568px;
+            top: 266px;
+            user-select: none;
+        }
+        .cz li{
+            color: rgb(60, 122, 214);
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+
+        <div class="top">
+            <ul class="topli">
+                <li>账号安全</li>
+                <li style="margin-left: 66px;">当前状态</li>
+                <li style="margin-left: 77px;">详情</li>
+                <li style="margin-left: 96px;">操作</li>
+            </ul>
+        </div>
+
+        <div class="bott">
+            <ul class="zh">
+                <li>绑定手机</li>
+                <li style="margin-left: 10px;">邮箱</li>
+                <li>安全手机</li>
+                <li>实名信息</li>
+                <li style="margin-left: 10px;">密码</li>
+            </ul>
+
+            <ul class="state">
+                <LI>未绑定</LI>
+                <LI>未绑定</LI>
+                <LI>未绑定</LI>
+                <LI>未实名</LI>
+                <LI style="margin-left: 5px;">安全</LI>
+            </ul>
+
+            <ul class="content">
+                <li>无</li>
+                <li>无</li>
+                <li>无</li>
+                <li>无</li>
+            </ul>
+
+            <ul class="cz">
+                <li style="margin-left: 16px;">添加</li>
+                <li style="margin-left: 16px;">添加</li>
+                <li style="margin-left: 16px;">添加</li>
+                <li>添加 删除</li>
+                <li style="margin-left: 2px;color: #b0b0b0;">不可修改</li>
+            </ul>
+        </div>  
+    </div>
+    
+    <script src="../alert.js"></script>
+    <script>
+        var cz = document.getElementsByClassName("cz")[0]
+            cz.addEventListener("click",function(){
+            window.alert("没做呢~    ^_^")
+        })
+    </script>
+</body>
+</html>
