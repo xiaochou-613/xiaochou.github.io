@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>请登录属于你的专属页面</title>
+    <link rel="stylesheet" href="./初始化CSS+字体图标/reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./初始化CSS+字体图标/1/iconfont.css">
+    <link rel="icon" href="./img/t.png">
+    <style>
+        
+        svg{
+            position: relative;
+            left: 147px;
+            top: 15px;
+        }
+
+        .happy{
+            position: absolute;
+            left: 122px;
+            top: 371px;
+            display: none;
+            color: #b0b0b0;
+        }
+    </style>        
+</head>
+<body>
+    <script src="./初始化CSS+字体图标/1/iconfont.js"></script>
+    <!-- 登录框 start -->
+
+    <div class="login">
+        <!-- <div class="logintop"></div> -->
+        <!-- <i class="iconfont">&#xe7c8;</i> -->
+        <svg aria-hidden="true">
+            <use xlink:href="#icon-liwu"></use>
+        </svg>
+
+        <div class="user">
+            <div class="user-name">
+                <span>姓 名:</span>    
+                <input type="text" id="user-name">
+            </div>
+            <div class="user-password" >
+                <span>密 码:</span>  
+                <input type="password" id="user-password" maxlength="6">
+            </div>           
+        </div>
+
+        <a href="#" class="register" onclick="alert('无法注册哦！')">注册</a>
+        <a href="#" class="forget" onclick="alert('密码是你的生日！')">忘记密码?</a>
+        <a href="#" class="information" onclick="happy()"><i>用户须知</i></a>
+        <span class="happy">开心就好^_^</span>
+
+        <button class="butt" type="submit" onclick="login()">
+            <i class="iconfont">&#xe653;</i>       
+        </button>
+    </div>
+    <!-- 登录框 end -->
+
+    <script>
+        //禁止选择,也就是无法复制
+        document.onselectstart = new Function("event.returnValue=false;"); 
+        // 禁用右键菜单、复制、选择);
+    </script>
+    <script src="./wxy/alert.js"></script>
+    <script src="./js.js"></script>
+</body>
+</html>

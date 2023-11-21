@@ -1,0 +1,95 @@
+.emun{
+    width: 1100px;
+    height: 800px;  
+    margin: 125px auto;
+    background-color: #fff;
+    /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); */
+    border-radius: 15px;
+    position: relative;
+    animation: DIS 0.3s ease 0s;
+    animation-fill-mode: forwards;
+}
+@keyframes DIS{
+    from {
+        box-shadow: 0 0px 0px rgba(44, 37, 37, 0.1);
+    }
+    50%{
+        box-shadow: 0 5px 10px rgba(87, 47, 47, 0.2);
+    }
+    to{
+        /* box-shadow: 0 15px 30px rgba(148, 35, 35, 0.4); */
+        box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    }
+}
+.emun-box{
+    width: 250px;
+    height: 800px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f0f0f0;
+    /* animation: BOX 0.1s linear 0s; */
+    /* animation-fill-mode: forwards; */
+}
+@keyframes BOX{
+    from {
+        background-color: #fff;    }
+    /* 50%{
+        background-color: #fdfafa;  } */
+    to{
+        background-color: #f0f0f0;  }
+}
+.emun-box>h1{
+    font-size: 25px;
+    position: relative;
+    top: 18px;
+    left: 79px;
+    margin-bottom: 35px;
+}
+.emun-box>a>div{
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    user-select: none;
+    animation: INPUT 0.4s linear 0s;
+    animation-fill-mode: forwards;
+}
+@keyframes INPUT{
+    from{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    50%{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    to{
+        padding: 10px 10px 10px 20px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+/* bug未知 *********************/
+.emun-box>a>div:hover{   
+    /* border-bottom: 1px solid #f0f0f0; */
+    box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.3); 
+}
+
+/* #right{
+    width: 850px;
+    height: 800px;
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    user-select: none;
+} */
+
+iframe{
+    width: 850px;
+    height: 800px;
+    position: absolute; 
+    left: 250px;
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+

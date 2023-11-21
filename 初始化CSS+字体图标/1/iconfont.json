@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4320335",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "5041099",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e7c8",
+      "unicode_decimal": 59336
+    },
+    {
+      "icon_id": "36571997",
+      "name": "欢迎模式",
+      "font_class": "huanyingmoshi",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}

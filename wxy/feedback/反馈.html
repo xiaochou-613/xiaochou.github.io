@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.feedback:hover{
+    background-color: aliceblue;
+}
+.feedback-r i{
+    color: red;
+}
+.feedback-r p{
+    font-size: 26px;
+    position: absolute;
+    left: 100px;
+    top: 88px;
+    font-family: monospace;
+}
+/* .feedback-r input{
+    width: 620px;
+    height: 200px;
+    font-size: 15px;
+    position: relative;
+    left: 100px;
+    top: 160px;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+} */
+.area{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    top: 160px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.btn{
+    width: 80px;
+    height: 35px;
+    background-color: #55f;
+    border-radius: 10px;
+    border: 1px solid #55f;
+    position: absolute;
+    top: 346px;
+}
+.btn>i{
+    color: aliceblue;
+}
+    </style>
+</head>
+<body>
+    <div class="feedback-r">
+        <!-- <label> -->
+            <p><i>*</i>你的建议：</p>
+            <textarea class="area" cols="60" rows="9" placeholder="请提出您宝贵的意见，我会认真负责且诚恳的对待您的无效意见~" autofocus style="resize: none;"></textarea>
+            <button type="submit" class="btn"><i>提交</i></button>
+        <!-- </label> -->
+    </div>
+
+    <script src="../alert.js"></script>
+    <script>
+        var area = document.getElementsByClassName("area")[0]
+        var btn = document.getElementsByClassName("btn")[0]
+        btn.addEventListener("click",function(){
+        if(area.value != 0)
+            alert("感谢你的建议，但是我看不到，不如微信呢~ ^_^")
+        else
+            alert("请提出你建议")
+        })
+    </script>
+
+</body>
+</html>

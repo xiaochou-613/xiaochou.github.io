@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3840925",
+      "name": "订单管理",
+      "font_class": "dingdanguanli",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "26482167",
+      "name": "采购订货",
+      "font_class": "caigoudinghuo",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}
